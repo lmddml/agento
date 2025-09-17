@@ -1,7 +1,7 @@
 # AGENTS.md
 
 ## Setup commands
-- Install deps: `npm i`
+- Install deps: `npm ci`
 - Postgres should already be locally running.
 - Start app: `node ./src/index.js`
 - Tests currently not implemented
