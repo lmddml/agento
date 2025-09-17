@@ -2,8 +2,9 @@
 
 ## Setup commands
 - Install deps: `npm i`
-- Start dev server: `pnpm dev`
-- Run tests: `pnpm test`
+- Start postgres: `docker compose up -d`
+- Start app: `node ./src/index.js`
+- Tests currently not implemented
 
 ## Code style
 - TypeScript strict mode
