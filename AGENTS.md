@@ -2,7 +2,7 @@
 
 ## Setup commands
 - Install deps: `npm i`
-- Start postgres: `docker compose up -d`
+- Postgres should already be locally running.
 - Start app: `node ./src/index.js`
 - Tests currently not implemented
 
