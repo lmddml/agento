@@ -1,9 +1,9 @@
 # AGENTS.md
 
 ## Setup commands
-- Install deps: `npm ci --no-progress`
+- Deps are allready installed.
 - Postgres should already be locally running.
-- Start app: `node ./src/index.ts`. If this does not work, try `node --experimental-strip-types ./src/index.ts`.
+- Start app: `node ./src/index.ts`. If this does not work, try `node --experimental-strip-types ./src/index.ts`. Since v22.18.0, Node.js enables "type stripping" by default
 - Tests currently not implemented
 
 ## Code style
